@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BoundedContext\MasterContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RxWeb.Core.Data" Version="3.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RetrivalManagement.Models\RetrivalManagement.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BoundedContext\" />
+  </ItemGroup>
+
+</Project>

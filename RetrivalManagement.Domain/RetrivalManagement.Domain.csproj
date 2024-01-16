@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RxWeb.Core.Security" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RetrivalManagement.Models\RetrivalManagement.Models.csproj" />
+    <ProjectReference Include="..\RetrivalManagement.UnitOfWork\RetrivalManagement.UnitOfWork.csproj" />
+  </ItemGroup>
+
+</Project>
