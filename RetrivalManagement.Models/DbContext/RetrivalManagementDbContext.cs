@@ -45,7 +45,7 @@ namespace RetrivalManagement.Models
             base.OnConfiguring(optionsBuilder);
         }
 
-        private static readonly string ConnectionString = "Server=localhost;Database=RetrivalManagementDb;User Id=wbpoc;Password=sql@tfs2008;TrustServerCertificate=True;MultipleActiveResultSets=true";
+        private static readonly string ConnectionString = "Server=retrivaldb.database.windows.net;Database=retrivaldb;User Id=sysadmin;Password=Retrival@123;TrustServerCertificate=True;MultipleActiveResultSets=true";
     }
 
     public interface IRetrivalManagementDbContext : IDbContext
